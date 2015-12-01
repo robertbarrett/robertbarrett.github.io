@@ -1,16 +1,7 @@
-<!DOCTYPE>
 <html>
-  <body>
-  <center>
-  <br>
-  <br>
-  <br>
-  <form action="https://api.particle.io/v1/devices/27002c001247343339383037/lamp?access_token=030f2974a7a3efe6f465c9e61251c62aa830a01d" method="POST">
-
-    <input type="radio" name="args" value="toggle">Toggle the Lamp.
-
-    <input type="submit" value="Do it!">
-  </form>
-  </center>
-  </body>
+<body onload="document.frm1.submit()">
+   <form action="https://api.particle.io/v1/devices/27002c001247343339383037/lamp?access_token=030f2974a7a3efe6f465c9e61251c62aa830a01d" name="frm1">
+      <input type="hidden" name="args" value="toggle" />
+   </form>
+</body>
 </html>
