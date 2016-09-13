@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Play>myvoice.wav</Play>
-    <Play>9.wav</Play>
+  <Dial>
+    +1-613-265-3841
+  </Dial>
 </Response>
