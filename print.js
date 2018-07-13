@@ -2,7 +2,7 @@ function printEmail() {
 	var em1 = "outlook.com"
 	var em2 = "rbarrett"
 	var str = em2 + '@' + em1
-	document.write(em2 + '@' + em1);
+	document.write(str.link('mailto://' + em2 + '@' + em1));
 }
 function printPhone() {
 	var ph1 = "265"
